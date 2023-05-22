@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+.players {
+    display: inline-flex;
+}
+
+.player {
+    display: flow;
+    margin: 1rem;
+}
+
+.fight {
+    margin: auto 1rem;
+    vertical-align: middle
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4el</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="players">
+    <div class="player">
+        <div>
+            <label>
+                <input id="p11" type="number" min="1" max="4" onwheel="" value="1">
+            </label>
+            <label>
+                <input id="p12" type="number" min="1" max="4" onwheel="" value="1">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input id="p13" type="number" min="1" max="4" onwheel="" value="1">
+            </label>
+            <label>
+                <input id="p14" type="number" min="1" max="4" onwheel="" value="1">
+            </label>
+        </div>
+    </div>
+    <div class="fight">
+        <input type="button" value="Fight!" onclick="fight();">
+    </div>
+    <div class="player">
+        <div>
+            <label>
+                <input id="p21" type="number" min="1" max="4" onwheel="" value="2">
+            </label>
+            <label>
+                <input id="p22" type="number" min="1" max="4" onwheel="" value="2">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input id="p23" type="number" min="1" max="4" onwheel="" value="2">
+            </label>
+            <label>
+                <input id="p24" type="number" min="1" max="4" onwheel="" value="2">
+            </label>
+        </div>
+    </div>
+</div>
+<div>
+    <div>
+        <label>
+            <input id="r1" type="number" min="1" max="4" readonly>
+        </label>
+        <label>
+            <input id="r2" type="number" min="1" max="4" readonly>
+        </label>
+    </div>
+    <div>
+        <label>
+            <input id="r3" type="number" min="1" max="4" readonly>
+        </label>
+        <label>
+            <input id="r4" type="number" min="1" max="4" readonly>
+        </label>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
